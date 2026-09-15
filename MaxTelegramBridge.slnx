@@ -1,3 +1,5 @@
 <Solution>
+  <Folder Name="/Элементы решения/" />
+  <Project Path="../MaxTelegramBridge.Cli/MaxTelegramBridge.Cli.csproj" />
   <Project Path="MaxTelegramBridge.csproj" />
 </Solution>

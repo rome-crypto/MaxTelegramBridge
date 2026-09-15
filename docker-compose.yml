@@ -1,0 +1,12 @@
+services:
+
+  bridge:
+    build: .
+    container_name: max-telegram-bridge
+    restart: unless-stopped
+
+    environment:
+      Bridge__AdminSecret: ${ADMIN_SECRET}
+
+    ports:
+      - "8080:8080"
